@@ -1,7 +1,6 @@
 *{
-    box-sizing: border-box; /*così non sommo border e padding, quindi 200px ai 1px e 50px, ma rimane 200px; e l'asterisco vuol dire "qualsiasi tag che scriverò. Quindi partire sempre scrivendo questo*/
-    margin: 0; /*tutti i tag da qui in poi avranno margin 0; quindi anche il <p> x es, che ha formattazione con margin intrinseco. Così lì posso mettere io come voglio*/
-}
+    box-sizing: border-box; 
+    margin: 0; 
 
 body{
     background-image: url(Immagini/background.jpg);
@@ -23,7 +22,6 @@ body{
 
 .logo{
     text-align: center;
-    /*margin-top: 250px;*/
 }
 
 .logo-text{
@@ -38,10 +36,6 @@ body{
     width: 2600px;
     height: 100px;
     background-color: #5bcd04;
-    /*margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;*/
-    
 }
 
 button{
