@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box; /*così non sommo border e padding, quindi 200px ai 1px e 50px, ma rimane 200px; e l'asterisco vuol dire "qualsiasi tag che scriverò. Quindi partire sempre scrivendo questo*/
+    margin: 0; /*tutti i tag da qui in poi avranno margin 0; quindi anche il <p> x es, che ha formattazione con margin intrinseco. Così lì posso mettere io come voglio*/
+}
+
+body{
+    background-image: url(Immagini/background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.container{ /*contenitore trasparente*/
+    width: 3200px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 300px;
+    height: 2200px;
+    background-color: #0204006f;
+    border-radius: 40px;   
+}
+
+
+
+.logo{
+    text-align: center;
+    /*margin-top: 250px;*/
+}
+
+.logo-text{
+    font-size: 90px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #5bcd04;
+}
+
+.riquadro {
+    text-align: center;
+    width: 2600px;
+    height: 100px;
+    background-color: #5bcd04;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;*/
+    
+}
+
+button{
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 27px;
+    padding: 4px 15px;
+}
+
+main > section{
+    margin-top: 50px;
+}
+
+.checkbox{
+    width : 34px; 
+    height : 34px;
+    margin-right: 4px;
+}
+
+
+h2{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 57px;
+}
+    
+.arrow::after{
+    content: "\21E5";
+}  
+
+section > p, .arrow::after{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.carica-gino{
+    width: 750px;
+    height: 60px;
+    background-color: #fcce77;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+.carica-mike{
+    width: 1450px;
+    height: 60px;
+    background-color: #5bcd04;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+.carica-fede{
+    width: 350px;
+    height: 60px;
+    background-color: #cd0e04;
+    margin-top: 2px;
+    border-radius: 10px;
+}
